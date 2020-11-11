@@ -9,7 +9,7 @@ App Functionality:
 ***Option One***
 Title: Make It - or - Buy It
 
-Designed for users trying to decide whether to make their meal or buy it. When a user visits the website they are presented with a text box to input whatever food item they are currently craving. When the user hits the submit button, a recipe pertaining to that item is displayed on one side of the page and the other side displays a restaurant that carries that specific food item.
+Designed for users trying to decide whether to make their meal or buy it. When a user visits the website they are presented with a text box to input whatever food item they are currently craving. When the user hits the submit button, a recipe pertaining to that item is displayed on one side of the page and the other side displays a restaurant that carries that specific food item. // Also can add a textbox for making or buying cocktails below the food textbox if we get this running smoothly.
 
 
 ***Option Two***
