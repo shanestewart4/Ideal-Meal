@@ -18,3 +18,18 @@ Designed for users trying to decide whether to make their meal or buy it. When a
 Title: Meal Maker
 
 Designed for users looking to make their food and drinks. When a user visits the website, they are presented with a text box to input a food item they are craving at the moment and a second text box to enter what drink they would like to go with their meal. When the user hits the submit button for the first text box input, a recipe pertaining to that food item is displayed. When the user hits the submit button for the second text box input, a recipe pertaining to that drink item is displayed.
+
+------Possible API's for this project:------
+*Recipes:*
+~Edamame Recipes recipe search:
+https://developer.edamam.com/edamam-docs-recipe-api
+
+~TheMealDB meal recipes:
+https://www.themealdb.com/api.php
+
+~TheCocktailDB cocktail recipes:
+https://www.thecocktaildb.com/api.php
+
+*Restaurants:*
+~Zomato:
+https://developers.zomato.com/api
