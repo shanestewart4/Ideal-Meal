@@ -93,3 +93,12 @@ label {
 .food-container {
     text-align: center;
 }
+/* Logo CSS */
+
+#logo {
+    width: 400px;
+    height: 400px;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+}
