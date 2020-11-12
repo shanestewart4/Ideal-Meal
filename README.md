@@ -36,3 +36,14 @@ https://www.thecocktaildb.com/api.php
 
 ~Zomato:
 https://developers.zomato.com/api
+
+
+---------- Jess Notes 11/12/2020
+
+CSS framework to use: Materialize
+
+https://materializecss.com/
+
+Tutorial on Materialize:
+
+https://www.youtube.com/watch?v=gCZ3y6mQpW0&list=PL4cUxeGkcC9gGrbtvASEZSlFEYBnPkmff
