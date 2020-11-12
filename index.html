@@ -3,11 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Make It or Buy It?</title>
+    <title>Make It - or - Buy It</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 
 </head>
 <body>
+    <!-- Header -->
+    <header>
+        <img src="./assets/images/logo.png">
+        <p>Having trouble deciding whether to go out to eat or stay in and cook?</p>
+        <p>Fill out the form below and let us help you!</p>
+
+        <form id="food-form">
+            <div class="food-group">
+                <label for="food" id="food-label">What dish are you hungry for?</label>
+                <input type="text" name="food" class="food-name" required>
+            </div>
+            <br>
+
+            <div class="food-group">
+                <label for="location" id="location-label">What is your current location?</label>
+                <input type="text" name="location" class="location-name" required>
+            </div>
+            <br>
+
+            <div class="food-group">
+                <button class="btn" id="food-submit" type="submit">Submit</button>
+            </div>
+        </form>
+    </header>
+
+    <!-- Main -->
+    <main class="page-content">
+        <!-- Recipe -->
+        <section class="food-container">
+            <h2>Make It</h2>
+            <div class="recipe">
+                Recipe results Here
+            </div>
+        </section>
+
+        <!-- Restaurant -->
+        <section class="food-container">
+            <h2>Buy It</h2>
+            <div class="restaurant">
+                Restaurant results here
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <h3>&copy;2020 by Make It - or - Buy It</h3>
+    </footer>
     
     <script src="./assets/js/script.js"></script>
 </body>
