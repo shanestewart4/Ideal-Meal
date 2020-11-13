@@ -38,7 +38,7 @@ async function recipeRequest () {
 // async function to fetch restaurant meal data from API
 async function restaurantRequest () {
     // EDAMAM Recipe Search API keys & app ID
-    let apiKey = "3ab0fc1c4c27a55e5168e2409a80cc89";
+    let apiKey = "";
     let appID = "";
 
     let response = await fetch(`${appID}&app_key=${apiKey}&q=${foodInputValue}`);
