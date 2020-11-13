@@ -3,11 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Make It or Buy It?</title>
+    <title>The Ideal Meal</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 
 </head>
 <body>
+    <!-- Header -->
+    <header>
+        <img src="./assets/images/the ideal meal.png" alt="The Ideal Meal logo" id="logo" >
+    </header>
+    
+    <!--title and description section-->
+    <section class="title-section">
+        <h1>
+            Feel the desire to create your dream meal?
+        </h1>
+        <p>
+            Fill out the form below and let us help you!
+        </p>
+    </section>
+    
+    <!-- Input Section-->   
+    <section class="input-section">    
+        <div class="form-wrapper">
+            <form id="food-form">
+                <div class="food-group">
+                    <label for="food" id="food-label">What dish are you hungry for?</label>
+                    <input type="text" name="food" class="food-name" id="food-text" required>
+                </div>
+                <br>
+
+                <div class="food-group">
+                    <label for="drink" id="drink-label">What cocktail will quench your thirst?</label>
+                    <input type="text" name="drink" class="drink-name" id="drink-text" required>
+                </div>
+                <br>
+
+                <div class="food-group">
+                    <button class="btn" id="food-submit" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Recipe Append API area -->
+    <section class="food-container">
+        <h2>Cook It</h2>
+        <div class="recipe">
+            Recipe results here
+        </div>
+    </section>
+
+    <!-- Drink API Append Area -->
+    <section class="food-container">
+        <h2>Look at It!!!</h2>
+        <div class="restaurant">
+            Gif results here
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <h3>&copy;2020 by The Ideal Meal</h3>
+    </footer>
     
     <script src="./assets/js/script.js"></script>
 </body>
