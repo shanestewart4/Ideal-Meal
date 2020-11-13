@@ -5,14 +5,24 @@ let foodInput = document.querySelector("#food-text");
 let submitButton = document.getElementById("food-submit");
 
 // ask about why this is node value...
-let foodInputValue = foodInput.value;
+
 
 
 // Add event listener to the submit button that calls the API request when clicked.
 submitButton.addEventListener("click", () => {
+    //event.preventDefault();
     console.log("food entered")
-    recipeRequest();
-    gifRequest();
+    let foodInputValue = foodInput.value.trim();
+    // set input value to localStorage to retrieve within function. this helps with scope I believe.
+    localStorage.setItem("inputValue", foodInputValue);
+
+    // call recipe API
+    recipeRequest(foodInputValue);
+    
+    // call GIPHY API
+    gifRequest(foodInputValue);
+    
+    console.log(foodInputValue);
 });
 
 
@@ -23,22 +33,24 @@ async function recipeRequest () {
     // EDAMAM Recipe Search API keys & app ID
     let apiKey = "b08658ce75bfb8d1774340639ff3f1bf";
     let appID = "89dfaab6";
+    let searchValue = localStorage.getItem("inputValue");
 
-    let response = await fetch(`https://api.edamam.com/search?app_id=${appID}&app_key=${apiKey}&q=${foodInputValue}`);
-    console.log(response);
+    let response = await fetch(`https://api.edamam.com/search?app_id=${appID}&app_key=${apiKey}&q=${searchValue}`);
+    //console.log(response);
 
     let data = await response.json();
-    console.log(data);
+    //console.log(data);
 }
 
 
-// async function to fetch restaurant meal data from API
+// async function to fetch GIPHY data from API
 async function gifRequest () {
     // gif Search API keys & app ID
     let apiKey = "FFKbyXAcQ3WPzd8HCjOD3u73pkQlS3vp";
-    let appID = "idealmeal";
+    //let appID = "idealmeal";
+    let searchValue = localStorage.getItem("inputValue");
 
-    let response = await fetch(`https://api.giphy.com/v1/gifs/search?app_id=${appID}&app_key=${apiKey}&q=${foodInputValue}`);
+    let response = await fetch(`https://api.giphy.com/v1/gifs/search?api_key=${apiKey}&q=${searchValue}`);
     console.log(response);
 
     let data = await response.json();
