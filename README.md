@@ -19,7 +19,7 @@ Title: Meal Maker
 
 Designed for users looking to make their food and drinks. When a user visits the website, they are presented with a text box to input a food item they are craving at the moment and a second text box to enter what drink they would like to go with their meal. When the user hits the submit button for the first text box input, a recipe pertaining to that food item is displayed. When the user hits the submit button for the second text box input, a recipe pertaining to that drink item is displayed.
 
-------Possible API's for this project:------
+------Possible APIs for this project:------
 
 *Recipes:*
 

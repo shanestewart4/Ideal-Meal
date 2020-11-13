@@ -4,9 +4,6 @@ let foodInput = document.querySelector("#food-text");
 // button 
 let submitButton = document.getElementById("food-submit");
 
-// ask about why this is node value...
-
-
 
 // Add event listener to the submit button that calls the API request when clicked.
 submitButton.addEventListener("click", () => {
