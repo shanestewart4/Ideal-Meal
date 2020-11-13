@@ -103,6 +103,14 @@ input {
 }
 /*USER INPUT SECTION END*/
 
+/*RESULTS SECTION*/
+.results {
+    display: flex;
+    justify-items: center;
+    justify-content: space-evenly;
+}
+/*RESULTS SECTION END*/
+
 /*LOGO*/
 #logo {
     width: 400px;
