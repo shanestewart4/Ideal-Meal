@@ -33,6 +33,7 @@ h1 {
     color: var(--secondary-color);
     font-family: 'Courier New';
     padding: 60px;
+    text-align: center;
 }
 
 h2 {
@@ -45,6 +46,7 @@ h3 {
     font-weight: bold;
     color: var(--tertiary-color);
     padding: 60px;
+    text-align: center;
 }
 
 p {
@@ -52,6 +54,7 @@ p {
     font-weight: bold;
     font-size: 18px;
     color: var(--tertiary-color);
+    text-align: center;
 }
 
 form {
@@ -80,6 +83,7 @@ label {
     font-size: 16px;
 }
 
+
 .btn:hover {
     background-color: var(--tertiary-color);
     color: var(--secondary-color);
@@ -90,9 +94,24 @@ label {
     justify-content: space-around;
 }
 
+.input-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title-section {
+    text-align: center;
+}
+
 .food-container {
     text-align: center;
 }
+
+.form-wrapper {
+    justify-content: center;
+}
+
+
 /* Logo CSS */
 
 #logo {
@@ -101,4 +120,5 @@ label {
     top: 10px;
     left: 10px;
     z-index: 1000;
+    border-bottom: #383838 1px solid;
 }
