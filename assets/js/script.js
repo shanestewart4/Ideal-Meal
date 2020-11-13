@@ -35,9 +35,16 @@ async function recipeRequest () {
     let response = await fetch(`https://api.edamam.com/search?app_id=${appID}&app_key=${apiKey}&q=${searchValue}`);
     console.log(response);
 
-    let data = await response.json();
-    console.log(data);
+    let recipeData = await response.json();
+    console.log(recipeData);
+    useRecipeAPI(recipeData);
+    
 }
+
+// function to display the recipe
+function useRecipeAPI() {
+}
+
 
 
 // async function to fetch GIPHY data from API
@@ -50,17 +57,13 @@ async function gifRequest () {
     let response = await fetch(`https://api.giphy.com/v1/gifs/search?api_key=${apiKey}&q=${searchValue}`);
     console.log(response);
 
-    let data = await response.json();
-    console.log(data);
+    let gifData = await response.json();
+    console.log(gifData);
+    useGifAPI(gifData);
 }
 
-// function to display the recipe
-
-
-
-
 // function to display the gif
-
+function useGifAPI()
 
 
 
