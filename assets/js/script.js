@@ -7,7 +7,7 @@ let submitButton = document.getElementById("food-submit");
 
 // Add event listener to the submit button that calls the API request when clicked.
 submitButton.addEventListener("click", () => {
-    //event.preventDefault();
+    event.preventDefault();
     console.log("food entered")
     let foodInputValue = foodInput.value.trim();
     // set input value to localStorage to retrieve within function. this helps with scope I believe.
@@ -33,10 +33,10 @@ async function recipeRequest () {
     let searchValue = localStorage.getItem("inputValue");
 
     let response = await fetch(`https://api.edamam.com/search?app_id=${appID}&app_key=${apiKey}&q=${searchValue}`);
-    //console.log(response);
+    console.log(response);
 
     let data = await response.json();
-    //console.log(data);
+    console.log(data);
 }
 
 
@@ -54,6 +54,15 @@ async function gifRequest () {
     console.log(data);
 }
 
-// function to display the name, image, ingredients and 
+// function to display the recipe
+
+
+
+
+// function to display the gif
+
+
+
+
 
 
