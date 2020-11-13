@@ -26,11 +26,13 @@ header {
 }
 
 body {
-    background-color: var(--primary-color);
+    background-image: url("../images/background.png");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 h1 {
-    color: var(--secondary-color);
+    color: var(--tertiary-color);
     font-family: 'Courier New';
     padding: 60px;
     text-align: center;
@@ -44,76 +46,64 @@ h2 {
 h3 {
     font-size: 20px;
     font-weight: bold;
-    color: var(--tertiary-color);
-    padding: 60px;
-    text-align: center;
-}
-
-p {
-    font-family: Verdana;
-    font-weight: bold;
-    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
     color: var(--tertiary-color);
     text-align: center;
-}
-
-form {
-    border: 3px solid var(--secondary-color);
-    padding: 20px;
-    margin: 45px 420px 40px 420px;
-    font-family: 'Verdana';
-    font-size: 20px;
-    color: var(--secondary-color);
-}
-
-label {
-    padding: 10px;
-}
-
-.btn {
-    background-color: var(--secondary-color);
-    color: var(--tertiary-color);
-    padding: 15px;
-    margin: 15px;
-    outline: none;
-    border: none;
-    border-radius: 25px;
-    font-family: Arial;
-    font-weight: bold;
-    font-size: 16px;
-}
-
-
-.btn:hover {
-    background-color: var(--tertiary-color);
-    color: var(--secondary-color);
-}
-
-.page-content {
-    display: flex;
-    justify-content: space-around;
-}
-
-.input-section {
-    display: flex;
-    justify-content: space-around;
 }
 
 .title-section {
     text-align: center;
 }
 
-.food-container {
-    text-align: center;
+/*USER INPUT SECTION*/
+.input-section {
+    display: flex;
+    justify-content: space-around;
 }
 
 .form-wrapper {
     justify-content: center;
 }
 
+form {
+    padding: 20px;
+    margin: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: var(--secondary-color);
+    background-color: rgba(255,255,255,0.5);
+}
 
-/* Logo CSS */
+label {
+    color: var(--tertiary-color);
+    margin: 10px;
+}
 
+input {
+    margin: 40px;
+}
+
+.btn {
+    background-color: rgba(56,56,56,0.5);
+    color: var(--tertiary-color);
+    padding: 10px;
+    margin: 5px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: var(--tertiary-color);
+    color: var(--secondary-color);
+}
+/*USER INPUT SECTION END*/
+
+/*LOGO*/
 #logo {
     width: 400px;
     height: 400px;
@@ -122,3 +112,4 @@ label {
     z-index: 1000;
     border-bottom: #383838 1px solid;
 }
+/*LOGO END*/
