@@ -1,21 +1,18 @@
 // Input Elements
 let foodInput = document.querySelector("#food-text");
-let locationInput = document.querySelector("#location-input");
 
 // button 
 let submitButton = document.getElementById("food-submit");
 
 // ask about why this is node value...
-let foodInputValue = foodInput.nodeValue
-
-
+let foodInputValue = foodInput.value;
 
 
 // Add event listener to the submit button that calls the API request when clicked.
 submitButton.addEventListener("click", () => {
     console.log("food entered")
     recipeRequest();
-    restaurantRequest();
+    gifRequest();
 });
 
 
@@ -36,12 +33,12 @@ async function recipeRequest () {
 
 
 // async function to fetch restaurant meal data from API
-async function restaurantRequest () {
-    // EDAMAM Recipe Search API keys & app ID
-    let apiKey = "";
-    let appID = "";
+async function gifRequest () {
+    // gif Search API keys & app ID
+    let apiKey = "FFKbyXAcQ3WPzd8HCjOD3u73pkQlS3vp";
+    let appID = "idealmeal";
 
-    let response = await fetch(`${appID}&app_key=${apiKey}&q=${foodInputValue}`);
+    let response = await fetch(`https://api.giphy.com/v1/gifs/search?app_id=${appID}&app_key=${apiKey}&q=${foodInputValue}`);
     console.log(response);
 
     let data = await response.json();
@@ -49,3 +46,5 @@ async function restaurantRequest () {
 }
 
 // function to display the name, image, ingredients and 
+
+
