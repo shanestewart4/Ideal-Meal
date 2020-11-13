@@ -10,47 +10,58 @@
 <body>
     <!-- Header -->
     <header>
-        <img src="./assets/images/logo.png" alt="Cook It or Dine It logo">
-        <p>Having trouble deciding whether to go out to eat or stay in and cook?</p>
-        <p>Fill out the form below and let us help you!</p>
-
-        <form id="food-form">
-            <div class="food-group">
-                <label for="food" id="food-label">What dish are you hungry for?</label>
-                <input type="text" name="food" class="food-name" id="food-text" required>
-            </div>
-            <br>
-
-            <div class="food-group">
-                <label for="location" id="location-label">What is your current location?</label>
-                <input type="text" name="location" class="location-name" id="location-text" required>
-            </div>
-            <br>
-
-            <div class="food-group">
-                <button class="btn" id="food-submit" type="submit">Submit</button>
-            </div>
-        </form>
+        <img src="./assets/images/Cook it Dine it_logo 400x400.png" alt="Cook It or Dine It logo" id="logo" >
     </header>
+    
+    <!--title and description section-->
+    <section class="title-section">
+        <h1>
+            Having trouble deciding whether to go out to eat or stay in and cook?
+        </h1>
+        <p>
+            Fill out the form below and let us help you!
+        </p>
+    </section>
+    
+    <!-- Input Section-->   
+    <section class="input-section">    
+        <div class="form-wrapper">
+            <form id="food-form">
+                <div class="food-group">
+                    <label for="food" id="food-label">What dish are you hungry for?</label>
+                    <input type="text" name="food" class="food-name" id="food-text" required>
+                </div>
+                <br>
 
-    <!-- Main -->
-    <main class="page-content">
-        <!-- Recipe -->
-        <section class="food-container">
-            <h2>Make It</h2>
-            <div class="recipe">
-                Recipe results here
-            </div>
-        </section>
+                <div class="food-group">
+                    <label for="location" id="location-label">What is your current location?</label>
+                    <input type="text" name="location" class="location-name" id="location-text" required>
+                </div>
+                <br>
 
-        <!-- Restaurant -->
-        <section class="food-container">
-            <h2>Buy It</h2>
-            <div class="restaurant">
-                Restaurant results here
-            </div>
-        </section>
-    </main>
+                <div class="food-group">
+                    <button class="btn" id="food-submit" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    
+        <!-- Recipe Append API area -->
+    <section class="food-container">
+        <h2>Cook It</h2>
+        <div class="recipe">
+            Recipe results here
+        </div>
+    </section>
+
+    <!-- Restaurant API Append Area -->
+    <section class="food-container">
+        <h2>Dine It</h2>
+        <div class="restaurant">
+            Restaurant results here
+        </div>
+    </section>
+    
 
     <!-- Footer -->
     <footer>
