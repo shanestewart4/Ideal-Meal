@@ -19,42 +19,36 @@
         <h1>
             Feel the desire to create your dream meal?
         </h1>
-        <p>
-            Enter your favorite food and let's get you a recipe!
-        </p>
+        <h3>
+            Fill out the form below and let us help you!
+        </h3>
     </section>
     
-    <!-- Input Section-->   
+    <!-- User Input Section -->   
     <section class="input-section">    
         <div class="form-wrapper">
             <form id="food-form">
-                <div class="food-group">
+                <div>
                     <label for="food" id="food-label">What dish are you hungry for?</label>
+                <div>
                     <input type="text" name="food" class="food-name" id="food-text" required>
                 </div>
-                <br>
-                <div class="food-group">
+                </div>
+                <div>
                     <button class="btn" id="food-submit" type="submit">Submit</button>
                 </div>
             </form>
         </div>
     </section>
-    
-    <!-- Recipe Append API area -->
-    <section class="food-container">
-        <h2>Cook It</h2>
-        <div id="recipe-append" class="recipe">
-            Recipe results here
-        </div>
-    </section>
-
-    <!-- Gif API Append Area -->
-    <section class="food-container">
-        <h2>Look at It!!!</h2>
-        <div id="gif-append" class="restaurant">
-            Gif results here
-        </div>
-    </section>
+ 
+    <!-- Results Section-->
+    <div class="results">
+    <!-- Gif of recipe -->
+    <div id="gif"></div>
+    <!-- Recipe -->
+    <div id="recipe-result"></div>
+    <script src="./assets/js/script.js"></script>
+    </div>
 
     <!-- Footer -->
     <footer>
