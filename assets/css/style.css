@@ -83,23 +83,6 @@ input {
     margin: 40px;
 }
 
-.btn {
-    background-color: rgba(56,56,56,0.5);
-    color: var(--tertiary-color);
-    padding: 10px;
-    margin: 5px;
-    outline: none;
-    border: none;
-    border-radius: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.btn:hover {
-    background-color: var(--tertiary-color);
-    color: var(--secondary-color);
-}
 /*USER INPUT SECTION END*/
 
 /*RESULTS SECTION*/
