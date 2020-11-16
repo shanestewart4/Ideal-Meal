@@ -3,71 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cook It - or - Dine It</title>
+    <title>The Ideal Meal</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </head>
 <body>
     <!-- Header -->
-    <header>
-        <img src="./assets/images/Cook it Dine it_logo 400x400.png" alt="Cook It or Dine It logo" id="logo" >
+    <header class="container center-align">
+        <img src="./assets/images/the ideal meal.png" alt="The Ideal Meal logo" id="logo" class="responsive-img" >
     </header>
     
-    <!--title and description section-->
-    <section class="title-section">
-        <h1>
-            Having trouble deciding whether to go out to eat or stay in and cook?
-        </h1>
-        <p>
-            Fill out the form below and let us help you!
-        </p>
-    </section>
-    
-    <!-- Input Section-->   
-    <section class="input-section">    
-        <div class="form-wrapper">
-            <form id="food-form">
-                <div class="food-group">
-                    <label for="food" id="food-label">What dish are you hungry for?</label>
-                    <input type="text" name="food" class="food-name" id="food-text" required>
-                </div>
-                <br>
 
-                <div class="food-group">
-                    <label for="location" id="location-label">What is your current location?</label>
-                    <input type="text" name="location" class="location-name" id="location-text" required>
+    <main class="container center-align">
+        <!--title and description section-->
+        <section class="title-section center-align">
+            <h1 class="light-blue-text text-darken-4 center-align">
+                Feel the desire to create your dream meal?
+            </h1>
+            <h3 class="light-blue-text text-darken-4 center-align">
+                Fill out the form below and let us help you!
+            </h3>
+        </section>
+        
+        <!-- User Input Section -->   
+        <section class="input-section center-align">    
+            <div class="form-wrapper center-align">
+                <form id="food-form center-align" class="z-depth-5">
+                    <div>
+                        <label for="food" id="food-label" class="blue-text text-darken-4 center-align">What are you hungry for?</label>
+                        <div class="input-field">
+                            <em class="material-icons prefix teal-text">arrow_forward</em>
+                            <input type="text" name="food" class="food-name blue-text text-darken-4 center-align" id="food-text"  required>
+                            <label for="dish-drink-label">Your dish or drink here</label>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="btn-large orange darken-1 waves-effect waves-light center-align pulse" id="food-submit" type="submit">Submit
+                            <em class="material-icons right">keyboard_return</em>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+ 
+        <!-- Results Section-->
+        <section class="results">
+            <div class="center-align row">
+                <!-- Gif of recipe -->
+                <div id="gif-append" class="col s12 m6 valign-wrapper">
+                    <em class="material-icons prefix card teal-text hoverable">gif</em>
                 </div>
-                <br>
-
-                <div class="food-group">
-                    <button class="btn" id="food-submit" type="submit">Submit</button>
+                <!-- Recipe -->
+                <div id="recipe-append" class="col s12 m6 valign-wrapper">
+                    <em class="material-icons prefix card teal-text hoverable">description</em>
                 </div>
-            </form>
-        </div>
-    </section>
-    
-        <!-- Recipe Append API area -->
-    <section class="food-container">
-        <h2>Cook It</h2>
-        <div class="recipe">
-            Recipe results here
-        </div>
-    </section>
-
-    <!-- Restaurant API Append Area -->
-    <section class="food-container">
-        <h2>Dine It</h2>
-        <div class="restaurant">
-            Restaurant results here
-        </div>
-    </section>
-    
+            </div>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer>
-        <h3>&copy;2020 by Cook It - or - Dine It</h3>
+        <h3 class="indigo-text center-align">&copy;2020 by The Ideal Meal</h3>
     </footer>
     
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script src="./assets/js/script.js"></script>
 </body>
 </html>
