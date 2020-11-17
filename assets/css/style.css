@@ -31,11 +31,19 @@ body {
     background-attachment: fixed;
 }
 
+.copy {
+    font-size: 26px;
+}
+
 h1 {
     color: var(--tertiary-color);
     font-family: 'Courier New';
     padding: 60px;
     text-align: center;
+}
+
+.create {
+    font-weight: bold;
 }
 
 h2 {
@@ -49,6 +57,11 @@ h3 {
     font-family: 'Courier New', Courier, monospace;
     color: var(--tertiary-color);
     text-align: center;
+}
+
+.fillout {
+    font-size: 34px;
+    font-weight: bold;
 }
 
 .title-section {
@@ -81,6 +94,16 @@ label {
 
 input {
     margin: 40px;
+}
+
+.arrowicon {
+    vertical-align: bottom;
+    display: inline-flex;
+}
+
+#food-submit {
+    font-size: 18px;
+    line-height: 24px;
 }
 
 /*USER INPUT SECTION END*/
