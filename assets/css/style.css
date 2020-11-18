@@ -31,11 +31,19 @@ body {
     background-attachment: fixed;
 }
 
+.copy {
+    font-size: 26px;
+}
+
 h1 {
     color: var(--tertiary-color);
     font-family: 'Courier New';
     padding: 60px;
     text-align: center;
+}
+
+.create {
+    font-weight: bold;
 }
 
 h2 {
@@ -49,6 +57,11 @@ h3 {
     font-family: 'Courier New', Courier, monospace;
     color: var(--tertiary-color);
     text-align: center;
+}
+
+.fillout {
+    font-size: 34px;
+    font-weight: bold;
 }
 
 .title-section {
@@ -83,23 +96,16 @@ input {
     margin: 40px;
 }
 
-.btn {
-    background-color: rgba(56,56,56,0.5);
-    color: var(--tertiary-color);
-    padding: 10px;
-    margin: 5px;
-    outline: none;
-    border: none;
-    border-radius: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    font-size: 20px;
+.arrowicon {
+    vertical-align: bottom;
+    display: inline-flex;
 }
 
-.btn:hover {
-    background-color: var(--tertiary-color);
-    color: var(--secondary-color);
+#food-submit {
+    font-size: 18px;
+    line-height: 24px;
 }
+
 /*USER INPUT SECTION END*/
 
 /*RESULTS SECTION*/
