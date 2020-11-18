@@ -4,7 +4,7 @@ https://shanestewart4.github.io/Project-1/
 
 <p>
  
-<img href=”https://github.com/shanestewart4/Project-1/blob/jess/assets/images/screenshot.png”>
+<img src=”https://github.com/shanestewart4/Project-1/blob/jess/assets/images/screenshot.png”>
  </p>
 
 ## Project Description
