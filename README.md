@@ -1,7 +1,7 @@
 # The Ideal Meal
 
 https://shanestewart4.github.io/Project-1/
-<img src=”./assets/images/screenshot.png”>
+<img src=”/assets/images/screenshot.png”>
 
 ## Project Description
 
@@ -31,4 +31,4 @@ Sydney Creel <github.com/Sydcreel>
 ## Notes
 
 Approval message:
-<img src=”./assets/images/approval.png”>
+<img src=”/assets/images/approval.png”>
