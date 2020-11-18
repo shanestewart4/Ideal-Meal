@@ -2,10 +2,9 @@
 
 https://shanestewart4.github.io/Project-1/
 
-<p>
- 
-<img src=”https://github.com/shanestewart4/Project-1/blob/jess/assets/images/screenshot.png”>
- </p>
+
+<img src=”./assets/images”>
+
 
 ## Project Description
 
@@ -35,7 +34,7 @@ https://developers.giphy.com/docs/api
 ## Notes
 
 Approval message:
-<p>
+
  
 <img src=”./assets/images/approval.png”>
- </p>
+
