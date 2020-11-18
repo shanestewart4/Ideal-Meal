@@ -26,7 +26,7 @@ When users visit The Ideal Meal, they are given a textbox to enter the food or d
 
 ## Credits
 
-* Bruce Anthony <github.com/bruceanthonyii>
+* Bruce Anthony II <github.com/bruceanthonyii>
 * Jessica Mangiameli <github.com/jessm91>
 * Shane Stewart <github.com/shanestewart4>
 * Sydney Creel <github.com/Sydcreel>
