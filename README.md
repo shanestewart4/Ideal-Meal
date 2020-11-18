@@ -1,7 +1,9 @@
 # The Ideal Meal
 
 https://shanestewart4.github.io/Project-1/
+<p>
 <img src=”./assets/images/screenshot.png”>
+ </p>
 
 ## Project Description
 
@@ -15,20 +17,22 @@ When users visit The Ideal Meal, they are given a textbox to enter the food or d
 
 ## API
 
-*Edamam Recipe – recipe search that supplies a randomized recipe related to the user’s food or drink item input.
+* Edamam Recipe – recipe search that supplies a randomized recipe related to the user’s food or drink item input.
 https://developer.edamam.com/edamam-docs-recipe-api
 
-*Giphy – Gif search that returns a randomized gif related to the user’s food or drink item input.
+* Giphy – Gif search that returns a randomized gif related to the user’s food or drink item input.
 https://developers.giphy.com/docs/api
 
 ## Credits
 
-Bruce Anthony <github.com/bruceanthonyii>
-Jessica Mangiameli <github.com/jessm91>
-Shane Stewart <github.com/shanestewart4>
-Sydney Creel <github.com/Sydcreel>
+* Bruce Anthony <github.com/bruceanthonyii>
+* Jessica Mangiameli <github.com/jessm91>
+* Shane Stewart <github.com/shanestewart4>
+* Sydney Creel <github.com/Sydcreel>
 
 ## Notes
 
 Approval message:
+<p>
 <img src=”./assets/images/approval.png”>
+ </p>
