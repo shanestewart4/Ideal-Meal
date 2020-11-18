@@ -3,7 +3,7 @@
 https://shanestewart4.github.io/Project-1/
 
 
-<img src=”./assets/images”>
+![this screenshot](https://github.com/shanestewart4/Project-1/blob/jess/assets/images/screenshot.png)
 
 
 ## Project Description
@@ -35,6 +35,5 @@ https://developers.giphy.com/docs/api
 
 Approval message:
 
- 
-<img src=”./assets/images/approval.png”>
+![this screenshot](https://github.com/shanestewart4/Project-1/blob/jess/assets/images/approval.png)
 
