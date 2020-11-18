@@ -1,49 +1,33 @@
-# Project-1
-First team project for the coding bootcamp. Set up as a collaborative repository.
+# The Ideal Meal
 
+https://shanestewart4.github.io/Project-1/
+<img src=”./assets/images/screenshot.png”>
 
-------- Jess Notes 11/11/2020
+## Project Description
 
-App Functionality:
+The Ideal Meal is an interactive web developed app designed for users looking to make a specific food dish drink.
 
-***Option One***
-Title: Make It - or - Buy It
+HTML, CSS, JavaScript, Materialize and API’s were used to complete this project.
 
-Designed for users trying to decide whether to make their meal or buy it. When a user visits the website they are presented with a text box to input whatever food item they are currently craving. When the user hits the submit button, a recipe pertaining to that item is displayed on one side of the page and the other side displays a restaurant that carries that specific food item.
-{if the restaurant API requires GPS location} - A second textbox where the user can enter their location will be displayed below the food input box. When the user hits the submit button, a restaurant that serves that food item in their area is displayed. The user must fill out both food and location boxes.
-// Also can add a textbox for making or buying cocktails below the food textbox if we get this running smoothly.
+## Usage
 
+When users visit The Ideal Meal, they are given a textbox to enter the food or drink they are currently craving. When they hit the submit button, a gif of that food/drink item is displayed alongside a randomized recipe pertaining to the specified food or drink item.
 
-***Option Two***
-Title: Meal Maker
+## API
 
-Designed for users looking to make their food and drinks. When a user visits the website, they are presented with a text box to input a food item they are craving at the moment and a second text box to enter what drink they would like to go with their meal. When the user hits the submit button for the first text box input, a recipe pertaining to that food item is displayed. When the user hits the submit button for the second text box input, a recipe pertaining to that drink item is displayed.
-
-------Possible APIs for this project:------
-
-*Recipes:*
-
-~Edamame Recipes recipe search:
+*Edamam Recipe – recipe search that supplies a randomized recipe related to the user’s food or drink item input.
 https://developer.edamam.com/edamam-docs-recipe-api
 
-~TheMealDB meal recipes:
-https://www.themealdb.com/api.php
+*Giphy – Gif search that returns a randomized gif related to the user’s food or drink item input.
 
-~TheCocktailDB cocktail recipes:
-https://www.thecocktaildb.com/api.php
+## Credits
 
-*Restaurants:*
+Bruce Anthony <github.com/bruceanthonyii>
+Jessica Mangiameli <github.com/jessm91>
+Shane Stewart <github.com/shanestewart4>
+Sydney Creel <github.com/Sydcreel>
 
-~Zomato:
-https://developers.zomato.com/api
+## Notes
 
-
----------- Jess Notes 11/12/2020
-
-CSS framework to use: Materialize
-
-https://materializecss.com/
-
-Tutorial on Materialize:
-
-https://www.youtube.com/watch?v=gCZ3y6mQpW0&list=PL4cUxeGkcC9gGrbtvASEZSlFEYBnPkmff
+Approval message:
+<img src=”./assets/images/approval.png”>
