@@ -19,10 +19,10 @@ When users visit The Ideal Meal, they are given a textbox to enter the food or d
 ## API
 
 * Edamam Recipe – recipe search that supplies a randomized recipe related to the user’s food or drink item input.
-https://developer.edamam.com/edamam-docs-recipe-api
+<br>https://developer.edamam.com/edamam-docs-recipe-api
 
 * Giphy – Gif search that returns a randomized gif related to the user’s food or drink item input.
-https://developers.giphy.com/docs/api
+<br>https://developers.giphy.com/docs/api
 
 ## Credits
 
