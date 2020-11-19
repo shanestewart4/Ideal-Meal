@@ -1,6 +1,6 @@
 # The Ideal Meal
 
-https://shanestewart4.github.io/Project-1/
+https://shanestewart4.github.io/Ideal-Meal/
 
 
 ![this screenshot](https://github.com/shanestewart4/Project-1/blob/jess/assets/images/screenshot.png)
