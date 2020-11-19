@@ -8,7 +8,7 @@ https://shanestewart4.github.io/Ideal-Meal/
 
 ## Project Description
 
-The Ideal Meal is an interactive web developed app designed for users looking to make a specific food dish drink.
+The Ideal Meal is an interactive web developed app designed for users looking to make a specific food dish or drink.
 
 HTML, CSS, JavaScript, Materialize and API’s were used to complete this project.
 
