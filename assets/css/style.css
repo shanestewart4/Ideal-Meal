@@ -162,3 +162,20 @@ input {
     border-bottom: #383838 1px solid;
 }
 /*LOGO END*/
+
+/*Mobile Responsive*/
+
+@media only screen and (max-width: 600px) {
+    .title-section h1 {
+        font-size: 50px;
+        padding: 0px 30px;
+    }
+
+    .title-section h3 {
+        padding: 0px 50px;
+    }
+
+    .results {
+        padding: 30px 200px; 
+    }
+}
