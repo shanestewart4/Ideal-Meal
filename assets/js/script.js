@@ -49,7 +49,7 @@ async function gifRequest (searchValue) {
 function useRecipeData(recipeData) {
     // return the 4th item in the array for the search query
     document.querySelector("#recipe-append").innerHTML = `
-        <div class="card" style="width: 18rem;">
+        <div class="card center-align" style="width: 18rem;">
             <img src="${recipeData.hits[4].recipe.image}" class="card-img-top" alt="recipe image">
             <div class="card-body">
                 <h5 class="card-title">${recipeData.hits[4].recipe.label}</h5>
@@ -67,7 +67,7 @@ function useRecipeData(recipeData) {
 function useGifData(gifData) {
     //let useGifData = localStorage.getItem("gifData");
     document.querySelector("#gif-append").innerHTML = `
-        <div class="card" style="width: 18rem;">
+        <div class="card center-align" style="width: 18rem;">
             <img src="${gifData.data[0].images.downsized_large.url}" class="card-img-top" alt="food gif">
         </div>
     `
